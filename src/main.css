@@ -23,7 +23,6 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-
   html,
   body {
     font-size: 14px;
@@ -62,7 +61,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   line-height: 1.1;
 }
 
@@ -106,17 +105,17 @@ ul {
   font-size: 1.1rem;
 }
 
-ul>li {
+ul > li {
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
 }
 
-ul>li:before {
+ul > li:before {
   position: absolute;
   left: 0;
   display: inline-block;
   content: "•";
-  color: #3a7bd5;
+  color: #e0e094;
 }
 
 .container {
@@ -130,7 +129,7 @@ ul>li:before {
 }
 
 .big-paragraph {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 500;
 }

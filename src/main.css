@@ -133,7 +133,6 @@ ul > li:before {
   line-height: 1.4;
   font-weight: 500;
   padding-bottom: 3rem;
-  border-bottom: 2px solid #000000;
 }
 
 @media screen and (max-width: 960px) {
@@ -145,7 +144,13 @@ ul > li:before {
 .row {
   display: flex;
   padding: 3rem 0;
-  border-bottom: 2px solid #000000;
+}
+.seperate-bottom {
+  border-bottom: 2.5px solid #000000;
+}
+
+.seperate-bottom-light {
+  border-bottom: 1px solid rgb(190, 187, 187);
 }
 
 .row-left {

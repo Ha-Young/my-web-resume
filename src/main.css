@@ -132,6 +132,8 @@ ul > li:before {
   font-size: 1.3rem;
   line-height: 1.4;
   font-weight: 500;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #000000;
 }
 
 @media screen and (max-width: 960px) {
@@ -143,7 +145,7 @@ ul > li:before {
 .row {
   display: flex;
   padding: 3rem 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 2px solid #000000;
 }
 
 .row-left {
@@ -188,4 +190,21 @@ ul > li:before {
 .time {
   display: block;
   margin-bottom: 1.5rem;
+}
+
+.emphasize {
+  font-weight: 500;
+  color: #81814b;
+}
+
+.site {
+  display: block;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.study-sub {
+  margin: 0;
+  font-size: 1rem;
+  color: gray;
 }

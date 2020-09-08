@@ -23,6 +23,7 @@ body {
 }
 
 @media screen and (max-width: 960px) {
+
   html,
   body {
     font-size: 14px;
@@ -52,7 +53,7 @@ p {
 }
 
 a {
-  color: #f5f5dc;
+  color: #81814b;
   transition: color 0.3s ease;
 }
 
@@ -105,12 +106,12 @@ ul {
   font-size: 1.1rem;
 }
 
-ul > li {
+ul>li {
   position: relative;
   padding: 0.2rem 0 0.2rem 1rem;
 }
 
-ul > li:before {
+ul>li:before {
   position: absolute;
   left: 0;
   display: inline-block;
@@ -145,6 +146,7 @@ ul > li:before {
   display: flex;
   padding: 3rem 0;
 }
+
 .seperate-bottom {
   border-bottom: 2.5px solid #000000;
 }
